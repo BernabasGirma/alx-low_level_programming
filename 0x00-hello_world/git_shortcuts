@@ -1,0 +1,6 @@
+#!/bin/bash
+alias g5="git status"
+alias g1="git add ."
+alias g2="git commit -m 'updated'"
+alias g3="git push"
+alias g4="git pull"
