@@ -1,24 +1,19 @@
 #include <stdio.h>
-#include <time.h>
-
+#include <unistd.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main -Entry point
+ * Description: prints all single digit numbers of
+ * base 10 from 0
+ * Return: Always 0 (success)
  */
-
 int main(void)
-
 {
-	int n = 48;
+	int a;
 
-	while (n <= 57)
+	for (a = 0; a < 10; a++)
 	{
-		putchar(n);
-		n++;
+		printf("%d", a);
 	}
 	putchar('\n');
-
 	return (0);
-
 }
