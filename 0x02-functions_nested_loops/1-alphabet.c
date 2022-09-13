@@ -1,15 +1,19 @@
-#include"main.h"
-
+#include "main.h"
 /**
- * print_alphabet - utilizes on the _putchar function to print
- *                 the alphabet a - z
-*/
-
+ * print_alphabet - Printing small lettets
+ *
+ * Return: void
+ */
 void print_alphabet(void)
 {
-	int ch;
+	char alpha;
 
-	for (ch = 'a'; ch <= 'z'; ++ch)
-		_putchar(ch);
+	alpha = 'a';
+
+	while (alpha <= 'z')
+	{
+		_putchar(alpha);
+		alpha++;
+	}
 	_putchar('\n');
 }
