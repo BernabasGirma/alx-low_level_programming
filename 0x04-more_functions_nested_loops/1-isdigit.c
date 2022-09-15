@@ -1,18 +1,15 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if input is digit between 0 - 9
+ * mul - checks if input is digit between 0 - 9
  *
- * @c: input
+ * @c:1st input
+ * @b:2nd input
  *
- * Return: 1 if is digit, 0 if not
+ * Return: 0 
 */
 
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-
-	else
-		return (0);
+	return (a * b);
 }
