@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * mul - checks if input is digit between 0 - 9
- *
- * @c:1st input
- * @b:2nd input
- *
- * Return: 0 
-*/
+ * _isdigit - checks if a character is digit
+ * @c: carrier variable
+ * Return: 1 if true, 0 if false
+ */
 
-int mul(int a, int b)
+int _isdigit(int c)
 {
-	return (a * b);
+	if (c >= '0' && c <= '9')
+		return (1);
+
+	else
+		return (0);
 }
